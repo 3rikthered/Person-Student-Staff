@@ -1,8 +1,7 @@
 package nelsonTask1;
 
 public class Person
-{
-	
+{	
 	private String name;
 	private String address;
 	private String phoneNumber;
@@ -25,7 +24,7 @@ public class Person
 	{
 		return name;
 	}
-
+	
 	public String getAddress()
 	{
 		return address;
@@ -41,7 +40,6 @@ public class Person
 		return emailAddress;
 	}
 
-	
 	// SETTERS
 	public void setName(String name)
 	{
@@ -61,6 +59,5 @@ public class Person
 	public void setEmailAddress(String emailAddress)
 	{
 		this.emailAddress = emailAddress;
-	}
-	
+	}	
 }
